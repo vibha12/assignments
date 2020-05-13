@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Invalid credentials error mesg check]]>
+    </line>
+    <line>
+      <![CDATA[User logged in Successfully.]]>
+    </line>
+    <line>
+      <![CDATA[User logout successfully.]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46890" started-at="2020-05-13T14:59:56 IST" finished-at="2020-05-13T15:00:43 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="46890" started-at="2020-05-13T14:59:56 IST" finished-at="2020-05-13T15:00:43 IST">
+      <class name="com.irctc.pack.TestScript">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.irctc.pack.TestScript@710726a3]" name="launchBrowser" is-config="true" duration-ms="17417" started-at="2020-05-13T14:59:56 IST" finished-at="2020-05-13T15:00:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verfiyWrongCredentials()[pri:1, instance:com.irctc.pack.TestScript@710726a3]" name="verfiyWrongCredentials" duration-ms="1675" started-at="2020-05-13T15:00:13 IST" description="to check the wrong credentials." finished-at="2020-05-13T15:00:15 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid credentials error mesg check]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verfiyWrongCredentials -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.irctc.pack.TestScript@710726a3]" name="closeBrowser" is-config="true" duration-ms="611" started-at="2020-05-13T15:00:15 IST" finished-at="2020-05-13T15:00:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.irctc.pack.TestScript@710726a3]" name="launchBrowser" is-config="true" duration-ms="14715" started-at="2020-05-13T15:00:16 IST" finished-at="2020-05-13T15:00:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyValidUserLogin()[pri:2, instance:com.irctc.pack.TestScript@710726a3]" name="verifyValidUserLogin" duration-ms="11780" started-at="2020-05-13T15:00:30 IST" description="Verify the valid credentials login. " finished-at="2020-05-13T15:00:42 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in Successfully.]]>
+            </line>
+            <line>
+              <![CDATA[User logout successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidUserLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.irctc.pack.TestScript@710726a3]" name="closeBrowser" is-config="true" duration-ms="627" started-at="2020-05-13T15:00:42 IST" finished-at="2020-05-13T15:00:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.irctc.pack.TestScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
