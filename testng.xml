@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.irctc.pack.TestScript"/>
+   <!--  <class name="com.irctc.pack.TestScript"/> -->  
+      <class name="gittaskpack.DemoTestScript"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
